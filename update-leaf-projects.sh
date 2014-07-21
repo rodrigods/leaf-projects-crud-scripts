@@ -28,12 +28,12 @@ echo "LEAF: $LEAF"
 echo ""
 
 # Try to update root_project_1 parent
-echo "UPDATING root_project_1 to root_project_2"
+echo "UPDATING root_project_1 parent to root_project_2"
 update_parent $ROOT1_ID $ROOT2_ID
 echo ""
 
 # Update leaf_project parent to root_project_2
-echo "UPDATING root_project_1 to root_project_2"
+echo "UPDATING leaf_project parent to root_project_2"
 update_parent $LEAF_ID $ROOT2_ID
 echo ""
 
